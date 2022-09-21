@@ -15,6 +15,6 @@ int main(){
     scanf("%d",&n);
     printf("Fibonacci Series: ");
     printf("%d %d ",0,1);
-    printFibonacci(n-2);//n-2 because 2 numbers are already printed
+    printFibonacci(n-2);
   return 0;
  }
